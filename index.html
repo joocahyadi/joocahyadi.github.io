@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Rosario:wght@500&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Joshia Cahyadi</title>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <input type="checkbox" id="check">
+    <div class="sidebar-header">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experiences</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#socials">Socials</a></li>
+        </ul>
+    </div>
+
+    <!-- Bagian Topbar -->
+    <header>
+        </label>
+        <div class="container">
+            <h1><a href="#">joocahyadi</a></h1>
+            <ul>
+                <!-- <li><a class="active" href="#">Home</a></li> -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experiences</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#socials">Socials</a></li>
+            </ul>
+
+            <!-- Menu mobile -->
+            <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
+        </div>
+    </header>
+
+    <!-- Bagian Banner -->
+
+    <section class="banner">
+        <div class="banner_text">
+            <h1><span></span></h1>
+            <p>Welcome to the Personal Website of Joshia Cahyadi</p>
+        </div>
+        <div class="sidebar">
+            <img src="gambar/AREmoji_20230105_195657_2429.gif" autoplay muted loop></img>
+            <!-- <img src="gambar/AREmoji-20230105-195657-2429-unscreen.gif" autoplay muted loop></img> -->
+        </div>
+    </section>
+
+    <!-- Bagian About -->
+    <section class="about" id="about">
+        <h1>About Me</h1>
+        <div class="container_about">
+            <img src="gambar/line_442617497058221.jpg" alt="unknown error">
+            <p>I am a final year mathematics student at Institut Teknologi Bandung with keen interest in data science, machine learning, and maths. Currently, I am interested in the field of Natural Language Processing (NLP) and started to deepen my knowledge
+                while also gaining experiences in several data science related projects.</p>
+        </div>
+    </section>
+
+    <!-- Bagian Experience -->
+    <section class="experience" id="experience">
+        <h1>Experiences</h1>
+        <div class="container-exp">
+            <div class="content_exp">
+                <p class="location">Tangerang, Banten, Indonesia</p>
+                <p class="company">Yummy Corp</p>
+                <p class="position">Data Analyst Intern</p>
+                <p class="period">Jul 2022 - Oct 2022</p>
+                <br>
+                <ul>
+                    <li>Created Python scripts for the ETL's transformation part (cleaning and formatting) of periodically updated ops data.</li>
+                    <li>Created a dashboard for a weekly report regarding outlets' open-closed condition.</li>
+                </ul>
+
+                <br><br><br><br><br>
+
+                <p class="location">Bandung, West Java, Indonesia</p>
+                <p class="company">Institut Teknologi Bandung</p>
+                <p class="position">Statistical Laboratory Assistant</p>
+                <p class="period">Sep 2021 - May 2022</p>
+                <br>
+                <ul>
+                    <li>Collaborated with lecturer and 48 other teaching assistants to help around 150+ students in data analysis laboratory using RStudio and graded assignments.</li>
+                    <li>Responsible for making the final test questions of probability distributions and hypothesis testing module for 83 students.</li>
+                </ul>
+            </div>
+
+            <div class="side-exp"></div>
+        </div>
+    </section>
+
+    <!-- Bagian Education -->
+    <section class="education" id="education">
+        <h1>Education</h1>
+        <div class="container-edu">
+            <div class="side-edu"></div>
+
+            <div class="content_edu">
+                <p class="location">Bandung, West Java, Indonesia</p>
+                <p class="company">Institut Teknologi Bandung</p>
+                <p class="position">Bachelor of Science in Mathematics</p>
+                <p class="period">Aug 2019 - Present</p>
+                <br>
+                <ul>
+                    <li>Awards: Ganesha Karsa (2023); Dean's List (2020-2022)</li>
+                </ul>
+
+                <br><br><br><br><br>
+
+                <p class="location">Jakarta, Indonesia</p>
+                <p class="company">SMAK 4 Penabur Jakarta</p>
+                <p class="position">High School Diploma in Mathematics and Natural Sciences</p>
+                <p class="period">Jul 2016 - Jul 2019</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Projects -->
+    <section class="projects" id="projects">
+        <h1>Projects</h1>
+        <div class="personal">
+            <h3>Personal</h3>
+            <div class="p1">
+                <div class="story_p1">
+                    <p class="title_p1">Recommendation System Based on Articles Content</p>
+                    <br><br>
+                    <p class="paragraph_p1">
+                        This is my first personal project in the field of Natural Language Processing. Here I used TF-IDF for the word embedding and Non-negative Matrix Factorization for dimensionality reduction. Combining both of them to get the top-n related articles to the
+                        currently selected article.</p>
+                    <br>
+                    <p class="closing_p1">For the full explanation, feel free to go straight to <a href="https://joocahyadi.medium.com/recommendation-system-based-on-articles-content-9f79a792a17a" target="_blank">my medium article</a>!</p>
+                </div>
+                <div class="image_p1">
+                    <img src="gambar/Recommender System Based on Articles Content.png" alt="Unknown Error">
+                </div>
+            </div>
+        </div>
+
+        <div class="collaboration">
+            <h3>Collaboration</h3>
+            <div class="c1">
+                <div class="image_c1">
+                    <img src="gambar/Cover TSDN 2021.png" alt="Unknown Error">
+                </div>
+                <div class="story_c1">
+                    <p class="title_c1">Analysis of the Indonesian Economy and Recommendations for Placement of UMKMs based on Geolocation and Social Media Sentiments in Jakarta</p>
+                    <br><br>
+                    <p class="author_c1">Author: Nelson Alexander Owen, Steven Alexander Liong, Joshia Cahyadi, Hansel Noble Lawrence</p>
+                    <br><br>
+                    <p class="intro_c1">Introduction:</p>
+                    <br>
+                    <p class="paragraph_c1">
+                        The emergence of COVID-19 pandemic in early 2020, caused the Indonesian economy hit hard. With the pandemic lasting almost 2 years, it is necessary to know the current condition of the Indonesian economy in order to know the progress of Indonesia. In
+                        this project, we analyzed one of the main keys to the Indonesian economy, namely UMKM. We also keen to see the distribution of mapping and public opinion about UMKM in Jakarta. In the end, we provided conclusions and suggestions
+                        to the public and authorities regarding UMKM in Jakarta.</p>
+                    <br>
+                    <p class="closing_c1">For the complete code and presentation slide, please visit the following <a href="https://github.com/joocahyadi/Vespa_TSDN_21" target="_blank">Github Repository</a>!</p>
+                </div>
+            </div>
+
+            <div class="c2">
+                <div class="image_c2">
+                    <img src="gambar/NFT Report Cover.JPG" alt="Unknown Error">
+                </div>
+                <div class="story_c2">
+                    <p class="title_c2">NFT Creator Recommendations and Dashboard</p>
+                    <br><br>
+                    <p class="author_c2">Author: Steven Alexander Liong, Joshia Cahyadi</p>
+                    <p class="mentor_c2">Mentored by: Louis Owen</p>
+                    <br><br>
+                    <p class="intro_c2">Introduction:</p>
+                    <br>
+                    <p class="paragraph_c2">
+                        Non-Fungible Token (NFT), one of the biggest phenomena in late 2021, has stormed the digital marketplace. The NFT’s phenomenon influenced various societies, especially artists and influencers. In addition to them, many organizations also started to create
+                        their original NFT projects and collections for many purposes, such as engaging their fans in this online era. Unfortunately, not everyone who started NFT projects has succeeded. Most of them failed to maintain and continue their
+                        NFT projects.
+                    </p>
+                    <br>
+                    <p class="paragraph_c2">
+                        In this project, we analyzed many aspects from the 3 given datasets using predefined assumptions and gained insights related to the NFTs distributed in Opensea. We also did creator segmentation to give suggestions for beginner creators that wanted to
+                        start their journey in the NFT world.
+                    </p>
+                    <br>
+                    <p class="closing_c2">For the complete code and technical report, please visit the following <a href="https://github.com/joocahyadi/VESPA_NFT_22" target="_blank">Github Repository</a>!</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Bagian Contacts -->
+    <section class="socials" id="socials">
+        <h1>Socials</h1>
+        <div class="container-socials">
+            <p><a href="https://www.linkedin.com/in/joshiacahyadi/" target="_blank">LinkedIn</a>/<a href="https://github.com/joocahyadi" target="_blank">GitHub</a>/<a href="https://joocahyadi.medium.com/" target="_blank">Medium</a></p>
+        </div>
+        <div class="mini-socials">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/joshiacahyadi/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/joocahyadi" target="_blank">GitHub</a></li>
+                <li><a href="https://joocahyadi.medium.com/" target="_blank">Medium</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Bagian Footer -->
+    <footer>
+        <div class="container-footer">
+            <small>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Joshia Cahyadi. All rights reserved.</small>
+        </div>
+    </footer>
+</body>
+
+</html>
