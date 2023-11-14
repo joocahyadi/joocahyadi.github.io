@@ -864,6 +864,9 @@ footer small {
   .projects .p1 {
     flex-direction: column-reverse;
   }
+  .projects .p2 {
+    flex-direction: column-reverse;
+  }
   .projects .c1 {
     flex-direction: column;
   }
